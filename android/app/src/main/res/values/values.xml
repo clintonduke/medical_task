@@ -1,0 +1,9 @@
+<resources>
+    <string name="default_web_client_id" translatable="false">1:594414866864:android:aad92ddec3f007fae00675</string>
+    <string name="firebase_database_url" translatable="false">https://medicineapp-7fbc6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">594414866864</string>
+    <string name="google_api_key" translatable="false">AIzaSyBk1R-UsLjBU9D1T8S_gmpkvIAwffKleXw</string>
+    <string name="google_app_id" translatable="false">1:594414866864:android:aad92ddec3f007fae00675</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBk1R-UsLjBU9D1T8S_gmpkvIAwffKleXw</string>
+    <string name="project_id" translatable="false">medicineapp-7fbc6</string>
+</resources>

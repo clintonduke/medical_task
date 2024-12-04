@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594414866864",
+    "project_id": "medicineapp-7fbc6",
+    "storage_bucket": "medicineapp-7fbc6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594414866864:android:aad92ddec3f007fae00675",
+        "android_client_info": {
+          "package_name": "com.example.youtube_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk1R-UsLjBU9D1T8S_gmpkvIAwffKleXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
