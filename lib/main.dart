@@ -5,7 +5,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   String? token = await FirebaseMessaging.instance.getToken();
-  print('FCM Token: $token');
   commonFuntion = CommonFuntion();
   commonFuntion.myfcm = token.toString();
   runApp(const MyApp());
