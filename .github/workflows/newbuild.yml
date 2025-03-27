@@ -1,4 +1,4 @@
-name: Flutter New auto Release Build
+name: Flutter Release new  Build
 
 on:
   push:
@@ -33,16 +33,6 @@ jobs:
           name: release-apk
           path: build/app/outputs/apk/release/app-release.apk
 
-      # 🛠 Delete existing release and tag if they exist
-      - name: Delete existing GitHub release (if any)
-        run: |
-          gh release delete v1.0.${{ github.run_number }} --yes || true
-          git tag -d v1.0.${{ github.run_number }} || true
-          git push origin --delete v1.0.${{ github.run_number }} || true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # 🚀 Create a new GitHub Release
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
