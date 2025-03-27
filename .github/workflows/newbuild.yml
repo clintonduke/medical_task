@@ -1,4 +1,4 @@
-name: Flutter Release Build
+name: Flutter New auto Release Build
 
 on:
   push:
